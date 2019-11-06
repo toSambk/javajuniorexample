@@ -18,6 +18,7 @@ public class Transaction {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+//    @SequenceGenerator(name = "tx-id-gen", sequenceName = "tx-id-seq", initialValue = 1000)
     private long id;
 
     @Column
